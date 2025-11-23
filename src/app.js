@@ -49,8 +49,8 @@ app.get('/api/places', (req, res) => {
   });
 });
 
-// Porta dinâmica para Railway
+// Porta dinâmica para Render (ou Railway)
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Backend rodando na porta ${PORT}`);
+  console.log(`✅ Backend rodando na porta ${PORT}`);
 });
