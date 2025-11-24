@@ -1,0 +1,91 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Container principal */
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Cabeçalho */
+.app-header {
+  margin-bottom: 2rem;
+}
+.app-header h1 {
+  font-size: 2.2em;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+.app-header p {
+  color: var(--color-muted);
+  font-size: 1.1em;
+}
+
+/* Botões de filtro */
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.filter-buttons button {
+  min-width: 120px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.filter-buttons button.active {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.filter-buttons button:hover {
+  transform: translateY(-2px);
+}
+
+/* Cards de estabelecimentos */
+.place-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+.place-card:hover {
+  transform: translateY(-3px);
+}
+.place-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--color-primary);
+}
+.place-card p {
+  margin: 0.3rem 0;
+  color: var(--color-muted);
+}
+.place-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--color-secondary);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+.place-card a:hover {
+  background-color: #43a047;
+}
+
+/* Mensagens */
+.loading,
+.empty {
+  color: var(--color-muted);
+  font-style: italic;
+  margin-top: 1rem;
+}
