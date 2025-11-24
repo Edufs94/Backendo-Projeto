@@ -48,4 +48,5 @@ Projeto desenvolvido por:
 - Denilson Bernardes Gonçalves
 - João Vitor Diniz Martins 
 - Alanna Cristina Santos Dias
-- Arthur Constantino da silva Rios 
+- Arthur Constantino da silva Rios
+- Luis Felipe Vieira da Silva
